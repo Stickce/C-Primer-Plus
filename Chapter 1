@@ -1,0 +1,16 @@
+/*************************************
+*Author:SongTao
+*Data:2018.5.17
+*Redeme:This is a program 
+that can convert inches to centimeters
+**************************************/
+#include <stdio.h>
+int main()
+{
+  float inch,centimeter; 
+  printf("Please enter the inche value you want to convert:");
+  scanf("%f",&inch);
+  centimeter = 2.54*inch;
+  printf("The centimeter value you entered for the inch value is: %.2f cm\n",centimeter);
+  return 0;
+}
